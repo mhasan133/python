@@ -6,7 +6,15 @@ Ans 7:
 a = "Hello world"
 print(a.upper())
 
+print ("Hello" + "_" + "World")  # snake case
+
+print ("hello" + "_" + "world") # lower snake case
+
+
+
 C:\Users\hasan\PycharmProjects\DemoProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/DemoProject/main.py
 HELLO WORLD
+Hello_World
+hello_world
 
 Process finished with exit code 0
