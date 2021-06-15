@@ -1,0 +1,15 @@
+Q 5: Write a program to complete the task given below:
+Ask users to enter any 2 numbers in between 1-10 , add the two numbers and keep the sum in
+another variable called z. Add 30 to z and store the output in variable result and print result as the
+final output.
+
+Ans 5:
+
+z = 5+10
+result = z+30
+print(result)
+
+C:\Users\hasan\PycharmProjects\DemoProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/DemoProject/main.py
+45
+
+Process finished with exit code 0
