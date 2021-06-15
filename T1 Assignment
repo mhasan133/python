@@ -1,0 +1,19 @@
+Q  3: Swap two numbers using a third variable and do the same task without using any third variable
+
+
+
+Ans 3:
+a = 20
+b = 10
+c = 20 - 10
+print(c) 
+
+c = b + c
+
+print(c)
+
+C:\Users\hasan\PycharmProjects\DemoProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/DemoProject/main.py
+10
+20
+
+Process finished with exit code 0
