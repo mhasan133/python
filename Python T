@@ -1,0 +1,11 @@
+Q 2:
+2. Create a variable of type complex and swap it with another variable of type integer.
+
+Ans Q2:
+d = 5 + 6j
+print(type(d))
+
+C:\Users\hasan\PycharmProjects\DemoProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/DemoProject/main.py
+<class 'complex'>
+
+Process finished with exit code 0
