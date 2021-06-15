@@ -1,0 +1,11 @@
+Q 6:C:. Write a program to check the data type of the entered values.
+
+Ans 6:
+
+a = "Name"
+print ("the data type is:", type(a))
+
+C:\Users\hasan\PycharmProjects\DemoProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/DemoProject/main.py
+the data type is: <class 'str'>
+
+Process finished with exit code 0
