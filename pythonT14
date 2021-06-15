@@ -1,0 +1,18 @@
+Q 4: . Write a program that takes input from the user and prints it using both Python 2.x and Python 3.x
+Version.
+
+Ans 4:
+a = 20
+b = 10
+a = b+a
+a = a-b
+print(a)
+
+b = a-b
+print(b)
+
+C:\Users\hasan\PycharmProjects\DemoProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/DemoProject/main.py
+20
+10
+
+Process finished with exit code 0
