@@ -1,0 +1,12 @@
+Q 7: Create Variables using formats such as Upper CamelCase, Lower CamelCase, SnakeCase and
+UPPERCASE.
+
+Ans 7:
+
+a = "Hello world"
+print(a.upper())
+
+C:\Users\hasan\PycharmProjects\DemoProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/DemoProject/main.py
+HELLO WORLD
+
+Process finished with exit code 0
