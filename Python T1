@@ -1,0 +1,21 @@
+Q 1. . Create three variables in a single line and assign values to them in such a manner that each one of
+them belongs to a different data type.
+E.g. :
+a = 1,
+b = 2.01,
+c = 'string'
+
+Ans.1:
+a = "Hello"
+print(type(a))
+
+b = 1
+print(type(b))
+
+c = 5.0
+print(type(c))
+
+C:\Users\hasan\PycharmProjects\DemoProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/DemoProject/main.py
+<class 'str'>
+<class 'int'>
+<class 'float'>
