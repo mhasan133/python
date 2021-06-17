@@ -1,0 +1,24 @@
+Q 1: 
+1. Write a program in Python to perform the following operation
+
+If a number is divisible by 3 it should print “Consultadd” as a string
+If a number is divisible by 5 it should print “Python Training” as a string
+If a number is divisible by both 3 and 5 it should print “Consultadd - Python Training” as a
+string.
+
+Ans:  
+
+x = 15
+if (x//3):
+    print("Consultadd")
+if (x//5):
+    print("python training")
+if (x//3&5):
+    print("consultadd - python training")
+    
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Consultadd
+python training
+consultadd - python training
+
+Process finished with exit code 0
