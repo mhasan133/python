@@ -1,0 +1,18 @@
+Write a program to reverse a string.
+Sample input: “1234abcd”
+Expected output: “dcba4321”
+
+Ans:
+
+s = input("Enter alphanumeric value: ")
+
+print("Input elements: {}".format(s))
+print("Input elements in reverse: {}".format(s[::-1 ]))
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter alphanumeric value: 1234abcd
+Input elements: 1234abcd
+Input elements in reverse: dcba4321
+
+Process finished with exit code 0
