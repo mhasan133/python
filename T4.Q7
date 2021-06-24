@@ -1,0 +1,25 @@
+Define a function that can accept two strings as input and print the string with the maximum length
+in the console. If two strings have the same length, then the function should print both the strings line
+by line.
+
+Ans:
+
+s1 = input("Enter a sentence: ")
+s2 = input("Enter a sentence: ")
+
+def compare_string(s1, s2):
+    if len(s1) > len(s2):
+        print(s1)
+    elif len(s2) > len(s1):
+        print(s2)
+    else:
+        print("{}\n{}".format(s1,s2))
+
+compare_string(s1, s2)
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter a sentence: i am a student
+Enter a sentence: who are you
+i am a student
+
+Process finished with exit code 0
