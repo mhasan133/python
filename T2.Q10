@@ -1,0 +1,27 @@
+Write a program that asks five times to guess the lucky number. Use a while loop and a counter,
+such as
+While counter <= 5:
+print(“Type in the”, counter, “number”
+counter=counter+1
+The program asks for five guesses (no matter whether the correct number was guessed or not). If the
+correct number is guessed, the program outputs “Good guess!”, otherwise it outputs “Try again!”.
+After the fifth guess it stops and prints “Game over!”
+
+Ans:
+
+lucky_number = 9
+answer = 'yes'
+
+while answer.lower() == 'yes':
+    number = int(input("Guess the lucky number"))
+    if number == lucky_number:
+        break
+    answer = input("Do you want to guess again?(yes / no)")
+    
+    
+    C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Guess the lucky number7
+Do you want to guess again?(yes / no)yes
+Guess the lucky number9
+
+Process finished with exit code 0
