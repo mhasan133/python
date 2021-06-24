@@ -1,0 +1,21 @@
+ Write a program that accepts a hyphen-separated sequence of words as input and prints the words
+in a hyphen-separated sequence after sorting them alphabetically
+
+
+Ans:
+s = input("enter hyphened sepereated words: ")
+
+s = s.lower().strip()
+
+if "-" in s:
+    s = s.split("-")
+    s.sort()
+    print("-".join(s))
+else:
+    print("No Hyphened sepereated word found")
+    
+    C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+enter hyphened sepereated words: a-b-c-d
+a-b-c-d
+
+Process finished with exit code 0
