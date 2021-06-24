@@ -1,0 +1,13 @@
+Write a function to compute 5/0 and use try/except to catch the exceptions
+
+Ans:
+
+try:
+    s = 5/0
+except ZeroDivisionError:
+    print("Cant divide a number by 0")
+    
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Cant divide a number by 0
+
+Process finished with exit code 0
