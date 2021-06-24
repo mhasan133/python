@@ -1,0 +1,26 @@
+Write a program in Python to break and continue if the following cases occurs:
+
+If user enters a negative number just break the loop and print “It’s Over”
+If user enters a positive number just continue in the loop and print “Good Going”
+
+Ans:
+
+while True:
+    a = int(input("Enter any number: "))
+    if a < 0:
+        print("Its Over")
+        break
+    else:
+        print("Good Going")
+        
+        C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter any number: 2
+Good Going
+Enter any number: 1
+Good Going
+Enter any number: 0
+Good Going
+Enter any number: -1
+Its Over
+
+Process finished with exit code 0
