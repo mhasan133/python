@@ -1,0 +1,16 @@
+ Find the largest and smallest number from a given list.
+ 
+ Ans:
+ 
+ elements = [1,2,3,4,5]
+
+print("List elements: {}".format(elements))
+print("min element: {}".format(min(elements)))
+print("max element: {}".format(max(elements)))
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+List elements: [1, 2, 3, 4, 5]
+min element: 1
+max element: 5
+
+Process finished with exit code 0
