@@ -1,0 +1,34 @@
+In the previous question, insert break after the “Good guess!” print statement. break will terminate
+the while loop so that users do not have to continue guessing after they found the number. If the user
+does not guess the number at all, print “Sorry but that was not very successful”
+
+
+Ans:
+
+lucky_number = 5
+counter = 1
+
+while counter <=5:
+    number = int(input("Guess the lucky number: "))
+    if number == lucky_number:
+        print("Good Guess!")
+    else:
+        print("Try again!")
+    if counter == 5:
+        print("Game Over")
+    counter += 1
+    
+    C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Guess the lucky number: 3
+Try again!
+Guess the lucky number: 5
+Good Guess!
+Guess the lucky number: 6
+Try again!
+Guess the lucky number: 20
+Try again!
+Guess the lucky number: 5
+Good Guess!
+Game Over
+
+Process finished with exit code 0
