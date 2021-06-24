@@ -1,0 +1,19 @@
+ Write a program which accepts a sequence of comma-separated numbers from console and
+generates a list and a tuple which contains every number in the form of string.
+Sample input: 34,67,55,33,12,98
+Expected output: [‘34’,’67’,’55’,’33’,’12’,’98’] (‘34’,’67’,’55’,’33’,’12’,’98’)
+
+Ans:
+s = input("Enter set of numbers:")
+
+tuple_s = eval(s)
+list_s = list(eval(s))
+
+print("List: {}\nTuple:{}".format(list_s, tuple_s))
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter set of numbers:34,67,55,33,12,98
+List: [34, 67, 55, 33, 12, 98]
+Tuple:(34, 67, 55, 33, 12, 98)
+
+Process finished with exit code 0
