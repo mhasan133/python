@@ -1,0 +1,36 @@
+ Write a program in Python to find the values which are not divisible by 3 but are a multiple of 7.
+Make sure to use only higher order functions.
+
+
+Ans:
+
+def divisible_by_7(number):
+    return number % 7 == 0
+
+def divisible_by_3(number):
+    return number % 3 == 0
+
+def check_divisibility(number):
+    if not divisible_by_3(number) and divisible_by_7(number):
+        return number
+    else:
+        return "Eh! cant understand"
+
+s = int(input("Enter any number"))
+
+print(check_divisibility(s))
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter any number:99
+Eh! cant understand
+
+Process finished with exit code 0
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter any number:49
+49
+
+Process finished with exit code 0
+
+
+
