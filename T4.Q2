@@ -1,0 +1,29 @@
+Write a function that accepts a string and prints the number of uppercase letters and lowercase
+letters.
+Sample input: “abcSdefPghijQkl”
+Expected Output: No. of Uppercase characters : 3 No. of Lower case Characters : 12
+
+
+Ans:
+
+s = input("Enter string values:")
+
+upper_count = 0
+lower_count = 0
+
+for i in s:
+    if i.isupper():
+        upper_count += 1
+    elif i.islower():
+        lower_count += 1
+
+print("no. of Uppercase characters: {}, No. of lowercase characters: {}".format(upper_count, lower_count))
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter string values:abcSdefPghijQkl
+no. of Uppercase characters: 3, No. of lowercase characters: 12
+
+Process finished with exit code 0
+
+
