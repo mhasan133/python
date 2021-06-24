@@ -1,0 +1,36 @@
+
+
+Ans:
+
+a = int(input("enter a number: "))
+b = int(input("enter a number: "))
+c = int(input("enter a number: "))
+
+avg = (a + b + c) / 3
+print("Avg = {}".format(avg))
+
+if (avg > a) and (avg > b) and (avg > c):
+    print("avg is higher than a,b,c")
+else:
+    if (avg > a) and (avg > b):
+        print("avg is higher than a,b")
+    elif (avg > a) and (avg > c):
+        print("avg is higher than a,c")
+    elif (avg > b) and (avg > c):
+        print("avg is higher than b,c")
+    elif avg > a:
+        print("avg is just higher than a")
+    elif avg > b:
+        print("avg is just higher than b")
+    elif avg > c:
+        print("avg is just higher than c")
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+enter a number: 3
+enter a number: 4
+enter a number: 5
+Avg = 4.0
+avg is just higher than a
+
+Process finished with exit code 0
