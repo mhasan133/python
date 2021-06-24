@@ -1,0 +1,18 @@
+Create a list of elements such that it contains the squares of the first and last 5 elements between
+1 and30 (both included).
+
+Ans:
+
+
+s = list(range(1,31))
+
+print("List elements: {}".format(s))
+print("Square of 1st five elements of list: {}".format(list(map(lambda x: x**2, s[:5]))))
+print("Square of last five elements of list: {}".format(list(map(lambda x: x**2, s[-5:]))))
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+List elements: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+Square of 1st five elements of list: [1, 4, 9, 16, 25]
+Square of last five elements of list: [676, 729, 784, 841, 900]
+
+Process finished with exit code 0
