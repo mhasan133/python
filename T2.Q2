@@ -1,0 +1,70 @@
+Write a program in Python to perform the following operator based task:
+
+Ask user to choose the following option first:
+If User Enter 1 - Addition
+If User Enter 2 - Subtraction
+If User Enter 3 - Division
+If User Enter 4 - Multiplication
+If User Enter 5 - Average
+Ask user to enter two numbers and keep those numbers in variables num1 and num2
+respectively for the first 4 options mentioned above.
+Ask the user to enter two more numbers as first and second for calculating the average as
+soon as the user chooses an option 5.
+At the end if the answer of any operation is Negative print a statement saying “NEGATIVE”
+NOTE: At a time a user can only perform one action.
+
+Ans:
+
+num1 = input("Enter First Value: ")
+num2 = input("Enter Second Value: ")
+
+
+def avg_option(num1, num2):
+    num3 = int(input("Enter third value: "))
+    num4 = int(input("Enter fourth value: "))
+    return (num1 + num2 + num3 + num4) / 4
+
+try:
+    num1 = eval(num1)
+    num2 = eval(num2)
+
+
+    print("Choose any one operation from the below:")
+    print("1. Addition\n2. Subtraction\n3. Division\n4. Multiplication\n5. Average")
+
+    ops = int(input("Operation number: "))
+
+    operation_dict = {
+        1: num1 + num2,
+        2: num1 - num2,
+        3: num1 / num2,
+        4: num1 * num2,
+    }
+
+
+    s = operation_dict.get(ops, "No respective operation found")
+    if ops == 5:
+        s = avg_option(num1, num2)
+    if isinstance(s, int) or isinstance(s, float):
+        if s < 0:
+            print("NEGATIVE")
+    print(s)
+except NameError:
+    print("Please enter integer or float values")
+    
+    
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter First Value: 2
+Enter Second Value: 3
+Choose any one operation from the below:
+1. Addition
+2. Subtraction
+3. Division
+4. Multiplication
+5. Average
+Operation number: 5
+Enter third value: 6
+Enter fourth value: 8
+4.75
+
+Process finished with exit code 0
