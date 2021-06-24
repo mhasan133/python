@@ -1,0 +1,17 @@
+Write a program that accepts a sequence of lines as input and prints the lines after making all
+characters in the sentence capitalized.
+Sample input: Hello world Practice makes man perfect
+Expected output: HELLO WORLD PRACTICE MAKES MAN PERFECT
+
+Ans:
+
+s = input("Enter string: ")
+
+print("upper case string: {}".format(s.upper()))
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter string: Hello world Practice makes man perfect
+upper case string: HELLO WORLD PRACTICE MAKES MAN PERFECT
+
+Process finished with exit code 0
