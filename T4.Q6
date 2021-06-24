@@ -1,0 +1,22 @@
+. Define a function that can receive two integral numbers in string form and compute their sum and
+print it in the console
+
+Ans:
+
+n1 = input("Enter Number 1: ")
+n2 = input("Enter Number 2: ")
+
+try:
+    n1 = eval(n1)
+    n2 = eval(n2)
+    print("Sum of both number is :{}".format(n1 + n2))
+except NameError:
+    print("Please enter numerical values")
+    
+    
+    C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter Number 1: 4
+Enter Number 2: 3
+Sum of both number is :7
+
+Process finished with exit code 0
