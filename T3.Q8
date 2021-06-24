@@ -1,0 +1,21 @@
+Create a new dictionary by concatenating the following two dictionaries:
+Sample input: a={1:10,2:20} b={3:30,4:40}
+Expected output: {1:10,2:20,3:30,4:40}
+
+Ans:
+
+a={1:10,2:20}
+b={3:30,4:40}
+
+print("a dict: {}".format(a))
+print("b dict: {}".format(b))
+
+a.update(b)
+print("Concatenated dict:{}".format(a))
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+a dict: {1: 10, 2: 20}
+b dict: {3: 30, 4: 40}
+Concatenated dict:{1: 10, 2: 20, 3: 30, 4: 40}
+
+Process finished with exit code 0
