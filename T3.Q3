@@ -1,0 +1,17 @@
+ Write a program to get the sum and multiply of all the items in a given list.
+
+Ans:
+
+from functools import reduce
+elements = [1,2,3,4,5]
+
+print("List elements: {}".format(elements))
+print("Sum of elements: {}".format(sum(elements)))
+print("Multiplication of elements: {}".format(reduce(lambda x,y: x*y, elements)))
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+List elements: [1, 2, 3, 4, 5]
+Sum of elements: 15
+Multiplication of elements: 120
+
+Process finished with exit code 0
