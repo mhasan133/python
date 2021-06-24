@@ -1,0 +1,19 @@
+Write a program in Python to multiply the elements of a list by itself using a traditional function
+and pass the function to map() to complete the operation.
+
+
+Ans:
+
+def multiply_itself(x):
+    return x*x
+
+s = [1,2,3,4,5]
+
+print("List elements: {}".format(s))
+print("Squared elements: {}".format(list(map(multiply_itself, s))))
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+List elements: [1, 2, 3, 4, 5]
+Squared elements: [1, 4, 9, 16, 25]
+
+Process finished with exit code 0
