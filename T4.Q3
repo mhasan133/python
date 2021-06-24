@@ -1,0 +1,20 @@
+ Create a function that takes a list and returns a new list with unique elements of the first list.
+ 
+ Ans:
+ 
+ def unique_elements(elements):
+    return list(set(elements))
+
+s = input("Enter elements:")
+s = list(eval(s))
+
+print("List elements: {}".format(s))
+
+print("List unique elements: {}".format(unique_elements(s)))
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter elements:{1,2,2,3,3,5}
+List elements: [1, 2, 3, 5]
+List unique elements: [1, 2, 3, 5]
+
+Process finished with exit code 0
