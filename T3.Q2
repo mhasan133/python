@@ -1,0 +1,19 @@
+Create a list of size 5 and execute the slicing structure 
+
+Ans:
+
+elements = [1,2,3,4,5]
+
+print(elements[:3])
+print(elements[2:4])
+print(elements[3:])
+print(elements[::2])
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+[1, 2, 3]
+[3, 4]
+[4, 5]
+[1, 3, 5]
+
+Process finished with exit code 0
+
