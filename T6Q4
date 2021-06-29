@@ -1,0 +1,28 @@
+4. Write a program in Python using generators to reverse the string.
+Input String = “Consultadd Training”
+
+
+
+Ans:
+
+input_string = "Consultadd Training"
+
+def rev_str(my_str):
+    length = len(my_str)
+    for i in range(length - 1, -1, -1):
+        yield my_str[i]
+
+
+reverse_str = ""
+for i in rev_str(input_string):
+    reverse_str += i
+
+
+print(reverse_str)
+
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+gniniarT ddatlusnoC
+
+Process finished with exit code 0
