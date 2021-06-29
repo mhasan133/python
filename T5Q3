@@ -1,0 +1,24 @@
+3. Write a program to handle an error if the user entered a number more than four digits it should
+return “The length is too short/long !!! Please provide only four digits” 
+
+
+Ans:
+
+s = input("Enter a number: ")
+
+try:
+    s = eval(s)
+    if isinstance(s , (int, float)):
+        input_length = len(str(s))
+        if input_length != 4:
+            print("The length is too short/long !!! Please provide only four digits")
+except:
+    print("Please enter number(s)")
+    
+    
+    
+    C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter a number: 5
+The length is too short/long !!! Please provide only four digits
+
+Process finished with exit code 0
