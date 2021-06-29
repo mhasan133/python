@@ -1,0 +1,15 @@
+1. Write a program in Python to find out the character in a string which is uppercase using list
+comprehension.
+
+Ans:
+
+s = input("Enter String: ")
+
+print("Uppercase letters in the input strings are: {}".format([x for x in s if x.isupper()]))
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter String: are U mad
+Uppercase letters in the input strings are: ['U']
+
+Process finished with exit code 0
