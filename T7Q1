@@ -1,0 +1,29 @@
+1. Write a program that calculates and prints the value according to the given formula:
+Q= Square root of [(2*C*D)/H]
+Following are the fixed values of C and H:
+C is 50.
+H is 30.
+D is a variable whose values should be input to your program in a comma-separated sequence.
+
+
+Ans:
+
+import math
+d = input("enter multiple numbers ( comma seperated): ")
+d = list(eval(d))
+
+C = 50
+H = 30
+
+for i in d:
+    q = math.sqrt((2 * C * i)/ H)
+    print(q)
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+enter multiple numbers ( comma seperated): 4,5,6
+3.6514837167011076
+4.08248290463863
+4.47213595499958
+
+Process finished with exit code 0
