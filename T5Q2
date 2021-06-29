@@ -1,0 +1,24 @@
+2. Write a program in Python to allow the user to open a file by using the argv module. If the
+entered name is incorrect throw an exception and ask them to enter the name again. Make sure
+to use read only mode.
+
+Ans:
+
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("file_name", help="The path of the filename to read")
+args = parser.parse_args()
+
+try:
+    with open(args.file_name, 'r') as f:
+        print(f.read())
+except:
+    print("Given file path doesnt exist, Please pass a proper file path")
+    
+    
+    C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+usage: main.py [-h] file_name
+main.py: error: the following arguments are required: file_name
+
+Process finished with exit code 2
