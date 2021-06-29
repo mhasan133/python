@@ -1,0 +1,54 @@
+. Create a Time class and initialize it with hours and minutes.
+Create a method addTime which should take two Time objects and add them.
+E.g.- (2 hour and 50 min)+(1 hr and 20 min) is (4 hr and 10 min)
+Create another method displayTime which should print the time.
+Also create a method displayMinute which should display the total minutes in the Time.
+E.g.- (1 hr 2 min) should display 62 minute
+
+Ans:
+class Time:
+    def __init__(self, hour, minute):
+        self.hour = hour
+        self.minute = minute
+
+    def displayTime(self):
+        print("{} hour {} min".format(self.hour, self.minute))
+
+    def displayMinute(self):
+        print("{} minute(s)".format((60 * self.hour) + self.minute))
+    
+    def addTime(self, to2):
+        print("{} hour {} min".format(
+            self.hour + to2.hour,
+            self.minute + to2.minute
+        ))
+
+
+to1 = Time(2 ,4)
+to2 = Time(1, 2)
+
+print("To1 data")
+to1.displayTime()
+to1.displayMinute()
+
+
+print("To2 data")
+to2.displayTime()
+to2.displayMinute()
+
+print("add time")
+to1.addTime(to2)
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+To1 data
+2 hour 4 min
+124 minute(s)
+To2 data
+1 hour 2 min
+62 minute(s)
+add time
+3 hour 6 min
+
+Process finished with exit code 0
+
