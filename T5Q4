@@ -1,0 +1,33 @@
+4. Create a login page backend to ask users to enter the username and password. Make sure to
+ask for a Re-Type Password and if the password is incorrect give chance to enter it again but it
+should not be more than 3 times.
+
+Ans:
+
+CHANCES = 3
+USERNAME = "admin"
+PASSWORD = "admin"
+
+count = 0
+while count != CHANCES:
+    user_name = input("Enter Username: ")
+    password = input("Enter password: ")
+
+    if user_name != USERNAME and password != PASSWORD:
+        print("Username/password entered was wrong, please try again!")
+        count  += 1
+        if count == CHANCES:
+            print("You lost all chances to login")
+        continue
+    else:
+        print("Login Success")
+        break
+        
+        
+        
+        C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Enter Username: admin
+Enter password: admin
+Login Success
+
+Process finished with exit code 0
