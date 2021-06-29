@@ -1,0 +1,19 @@
+Write a program to construct a dictionary from the two lists containing the names of students and
+their corresponding subjects. The dictionary should map the students with their respective subjects.
+Let’s see how to do this using for loops and dictionary comprehension.
+
+
+Ans:
+
+students = ['Smit', 'Jaya', 'Rayyan']
+subjects = ['CSE', 'Networking', 'Operating System']
+
+ss_dict = dict(zip(students, subjects))
+
+print(ss_dict)
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+{'Smit': 'CSE', 'Jaya': 'Networking', 'Rayyan': 'Operating System'}
+
+Process finished with exit code 0
