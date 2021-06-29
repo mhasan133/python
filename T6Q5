@@ -1,0 +1,25 @@
+ Write an example on decorators.
+
+Ans:
+
+def make_pretty(func):
+    def inner():
+        print("I got decorated")
+        func()
+    return inner
+
+
+def ordinary():
+    print("I am ordinary")
+
+
+s = make_pretty(ordinary)
+
+s()
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+I got decorated
+I am ordinary
+
+Process finished with exit code 0
