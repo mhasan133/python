@@ -1,0 +1,18 @@
+1. Write a program in Python to allow the error of syntax to be handled using exception handling.
+HINT: Use SyntaxError
+
+
+Ans:
+
+try:
+    print(eval('six times seven'))
+except SyntaxError as err:
+    print("Your code has some syntax error")
+    
+    
+    
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Your code has some syntax error
+
+Process finished with exit code 0
+
