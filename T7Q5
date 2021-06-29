@@ -1,0 +1,54 @@
+Ans:
+
+class Person:
+    def __init__(self, age):
+        if age < 0:
+            self.age = 0
+            print("Age is not valid, setting Age to 0")
+        else:
+            self.age = age
+
+    def yearPasses(self, age):
+        self.age += age
+
+    def amIOld(self):
+        if self.age >=0 and self.age < 13:
+            print("You are young")
+        elif self.age >=13 and self.age <= 19:
+            print("You are a teenager")
+        else:
+            print("You are old")
+
+p1 = Person(-1)
+p1.amIOld()
+p2 = Person(4)
+p2.amIOld()
+p3 = Person(10)
+p3.amIOld()
+p4 = Person(16)
+p4.amIOld()
+p5 = Person(18)
+p5.amIOld()
+p6 = Person(64)
+p6.amIOld()
+p7 = Person(38)
+p7.amIOld()
+
+
+p8 = Person(4)
+p8.yearPasses(38)
+print(p8.age)
+
+
+C:\Users\hasan\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/hasan/PycharmProjects/pythonProject/main.py
+Age is not valid, setting Age to 0
+You are young
+You are young
+You are young
+You are a teenager
+You are a teenager
+You are old
+You are old
+42
+
+Process finished with exit code 0
